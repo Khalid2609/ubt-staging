@@ -53,3 +53,15 @@ header .grp{display:flex;align-items:center;gap:6px;padding-left:14px;border-lef
 header .grp img{height:28px;width:auto}
 [dir=rtl] header .grp{padding-left:0;padding-right:14px;border-left:0;border-right:1px solid #dde3ee}
 @media(max-width:820px){header img.ublogo{height:44px}header .grp img{height:24px}header .grp span{display:none}}
+/* header brand – fixed sizing */
+header .brand{display:flex;align-items:center;gap:18px;flex:0 0 auto;min-width:0;overflow:hidden}
+header .brand a{display:flex;align-items:center;text-decoration:none;border:0;line-height:1}
+header .brand img.ublogo{height:48px;width:auto;max-width:none;flex:0 0 auto;object-fit:contain}
+header .brand img.colog{height:44px}
+header .brand .grp{gap:8px;padding:0 0 0 18px;margin:0;border:0;border-left:1px solid #cfd6e3;height:36px;color:var(--mute);font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap}
+header .brand .grp img{height:28px;width:auto}
+header .brand .grp span{text-decoration:none;line-height:28px}
+[dir=rtl] header .brand .grp{padding:0 18px 0 0;border-left:0;border-right:1px solid #cfd6e3}
+header nav{flex:0 1 auto;white-space:nowrap;margin-inline-start:24px}
+@media(max-width:1100px){nav a{margin-inline-start:16px;font-size:14px}}
+@media(max-width:820px){header .brand{gap:16px}header .brand img.ublogo{height:40px}header .brand img.colog{height:36px}header .brand .grp{padding-left:16px;height:30px}header .brand .grp img{height:24px}header .brand .grp span{display:none}}
