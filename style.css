@@ -42,3 +42,14 @@ table{border-collapse:collapse;width:100%;margin-top:20px}td,th{border:1px solid
 .chain{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.chain span{background:var(--ub);color:#fff;padding:8px 14px;border-radius:20px;font-weight:600}.chain b{color:var(--gold)}
 header img.ublogo{height:50px}
 @media(max-width:820px){.cos{grid-template-columns:1fr}}
+
+.hero .herologo{display:block;width:260px;max-width:70%;height:auto;background:#fff;padding:14px 20px;border-radius:10px;margin:0 0 22px;box-shadow:0 4px 18px rgba(0,0,0,.18)}
+.co .lg{width:auto;max-width:200px}
+@media(max-width:820px){.hero .herologo{width:190px}header img.ublogo{height:42px}}
+
+header .brand{display:flex;align-items:center;gap:14px}
+header img.ublogo{height:52px;width:auto;display:block}
+header .grp{display:flex;align-items:center;gap:6px;padding-left:14px;border-left:1px solid #dde3ee;text-decoration:none;color:#555;font-size:12px;font-weight:600}
+header .grp img{height:28px;width:auto}
+[dir=rtl] header .grp{padding-left:0;padding-right:14px;border-left:0;border-right:1px solid #dde3ee}
+@media(max-width:820px){header img.ublogo{height:44px}header .grp img{height:24px}header .grp span{display:none}}
